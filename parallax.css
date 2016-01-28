@@ -1,1 +1,232 @@
+*{
 
+margin:  0px;
+padding: 0px; 
+/*color: white;*/
+text-align:center;
+
+}  
+
+p {
+    color:white;
+}
+
+h2 {
+    color:white;
+}
+
+.top-bar{
+  float:right;
+}
+
+.menu{
+height: 50px;
+}
+
+.menu li{
+
+  display:block;
+  height:50px;
+  width: 125px;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'helvetica', serif;
+  color:white; 
+
+  position:relative;
+  z-index:999;
+
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family:'helvetica', serif;
+background-color: #010101;
+  
+}
+
+.mission-etc {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-bottom: 100px;
+    color: white;
+}
+    
+
+.header {
+  position: relative;
+  height : 600px;
+  width:100%;
+  background-image: url(helingborx.jpg);
+  background-size: cover;
+background-attachment: fixed;
+  margin-bottom: 150px;
+
+}
+
+.header-title {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: white;
+
+}
+
+a:link{
+text-decoration: none;
+    color:white;
+
+}
+a:visited {
+    text-decoration: none;
+    color:white;
+
+}
+
+#map { 
+    
+    border: 2px solid grey;
+    margin-bottom: 200px;
+}
+    
+#banner{
+    background-image: url(statsbanner.jpg);
+    height:400px;
+    width:100%;
+    background-size:cover;
+    background-position: center center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   margin-top: 0px;
+    opacity: 0.8;
+    margin-bottom: 100px;
+    
+}
+
+#carol{
+    background-image: url(maxresdefault.jpg);
+    height:400px;
+    width:100%;
+    background-size:cover;
+    background-position: center center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 0px;
+    float: right;
+    margin-bottom: 200px;
+    background-attachment: fixed;
+}
+    
+    
+.carol-text{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    padding-right: 15%;
+    padding-left: 15%;
+    font-family: 'helvetica', serif;
+
+}
+
+.STHLM {
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-bottom: 100px;
+    font-family: 'helvetica', serif;
+    
+}
+    
+
+#team { 
+    width:100%;
+    padding-left:300px;
+    padding:0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:0px;
+    font-family: 'helvetica', serif;
+   
+   
+}
+
+.section-title{
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    margin-top:60px;
+    font-family: 'helvetica', serif;
+    text-align: center;
+}
+
+.profile-circles { 
+    width:100%;
+    padding-left:300px;
+    padding:0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:60px;
+    margin-top:50px;
+}
+
+.profile-pic{
+    height:130px;
+    width:130px;
+    margin:10px;
+    border-radius: 50%;
+}
+
+.profile-pic.henry{
+    background-image: url(natalie.jpg);
+    background-position: center center;
+    background-size:cover;
+    
+}
+
+.profile-pic.sehmar{
+    background-image: url(sehmar.jpg);
+    background-position: center center;
+    background-size:cover;
+    
+}
+
+.profile-pic.oz{
+    background-image: url(12439535_10153725022620310_8197386805646037803_n.jpg);
+    background-position: center center;
+    background-size:cover;
+    
+}  
+
+.profile-pic.christian{
+    background-image: url(Pasted%20image%20at%202016_01_27%2004_23%20PM.png);
+    background-position: center center;
+    background-size:cover;
+    
+}   
+
+#contact{
+color:white;
+
+}
+
+p {
+    color:white;
+    margin-bottom: 50px;
+}
+
+#content a:link{
+    color:black;
+}
