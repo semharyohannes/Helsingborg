@@ -97,8 +97,8 @@ a:visited {
 }
     
 #banner{
-    background-image: url(statsbanner.jpg);
-    height:400px;
+    background-image: url(background.png);
+    height:8000px;
     width:100%;
     background-size:cover;
     background-position: center center;
